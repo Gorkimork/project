@@ -12,21 +12,17 @@
                     <section class="link-book">
                         <router-link :to="({name: 'book'})">Манга</router-link>
                     </section>
-
                 </section>
                 <section>
                 <RouterView/>
-                </section>
+                </section>        
             </section>
         </header>
 
-        <section class="tech-work">
-            <h1>ТЕХНИЧЕСКИЕ РАБОТЫ</h1>
-
+        <section>
+            <h1>Корзина )))</h1>
         </section>
     </main>
- 
-
 </template>
 
 <style scoped>
@@ -61,13 +57,3 @@
 }
 
 </style>
-
-
-<script setup>
-//import{
-//    useRouter
-//} from "vue-router"
-//const router = useRouter()
-
-
-</script>
